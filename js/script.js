@@ -39,13 +39,15 @@ function search(){
 	// Get Form Input
 	q = $('#query').val();
 	
+	var key = config.YouTube_API_KEY;
+
 	// Run GET Request on API
 	$.get(
 		"https://www.googleapis.com/youtube/v3/search",{
 			part: 'snippet, id',
 			q: q,
 			type:'video',
-			key: 'AIzaSyDK_qWQhVeD30zYW5Y2dI8Fk6IfFeMDTAw'},
+			key: key},
 			function(data){
 				var nextPageToken = data.nextPageToken;
 				var prevPageToken = data.prevPageToken;
