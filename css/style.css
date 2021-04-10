@@ -28,7 +28,7 @@ a{
 
 header{
 	padding:30px 20px;
-	background:#f4f4f4;
+	background:#000000;
 }
 
 header h1{
@@ -57,7 +57,7 @@ footer{
 
 .fieldcontainer{
 	display:block;
-	position:relative;
+	
 	width:90%;
 	margin:0 auto;
 }
