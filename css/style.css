@@ -6,7 +6,7 @@
 body{
 	font-family:"Segoue",sans-serif;
 	line-height:1.6em;
-	color:#666;
+	color:#cd853f;
 	background:#e1e1e1 url(../img/creampaper.png);
 	font-size:14px;
 }
@@ -28,11 +28,11 @@ a{
 
 header{
 	padding:30px 20px;
-	background:#000000;
+	background:#000;
 }
 
 header h1{
-	color:#000;
+	color:#ffe4ff;
 	margin-bottom:5px;
 }
 
@@ -57,7 +57,7 @@ footer{
 
 .fieldcontainer{
 	display:block;
-	
+	position:relative;
 	width:90%;
 	margin:0 auto;
 }
