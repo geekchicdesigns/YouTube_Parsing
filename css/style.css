@@ -6,14 +6,23 @@
 body{
 	font-family:"Segoue",sans-serif;
 	line-height:1.6em;
-	color:#cd853f;
-	background:#e1e1e1 url(../img/creampaper.png);
+	/*color:#cd853f;*/
+	/* background:#e1e1e1 url(../img/creampaper.png); */
+	background: center url(../img/watercolor.jpg);
 	font-size:14px;
 }
 
 a{
 	color:#333;
 	text-decoration:none;
+}
+
+p {
+	color: #cd853f;
+}
+
+.pspecial {
+	color:#000;
 }
 
 #container{
@@ -29,6 +38,7 @@ a{
 header{
 	padding:30px 20px;
 	background:#000;
+	border-radius: 3px;
 }
 
 header h1{
@@ -42,12 +52,14 @@ header span{
 
 section{
 	padding:30px 20px 20px 20px;
+	border-radius: 3px;
 }
 
 footer{
 	padding:20px;
-	background:#f4f4f4;
+	background:#000;
 	text-align:center;
+	border-radius: 3px;
 }
 
 #search-form{
@@ -94,7 +106,7 @@ footer{
 	zoom:1;
 	filter:alpha(opacity=65);
 	opacity:0.65;
-	background:transparent url(../img/search.png) top left no-repeat;s
+	background:transparent url(../img/search.png) top left no-repeat;
 }
 
 #search-btn:hover{
@@ -127,4 +139,18 @@ footer{
 
 .cTitle{
 	color:#dd2826;
+}
+
+.button-container {
+	margin-top: 25px;
+}
+
+.paging-button {
+	background: #f4f4f4;
+	padding: 8px 13px;
+	border:#ccc 1px solid;
+	border-radius: 5px;
+	color:#333;
+	margin:10px;
+	cursor: pointer;
 }
