@@ -1,4 +1,7 @@
 #Secret Folder
-.ninjaSkillz/
+.secret/
+#Build Folder
+Docs
+.vscode
 # DS_Store
 */.DS_Store
